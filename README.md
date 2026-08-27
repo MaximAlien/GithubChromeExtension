@@ -4,7 +4,7 @@ A Chrome extension that adds a **Quick actions** button to GitHub pull request "
 
 ## Screenshot
 
-![Quick actions menu](screenshots/example.png)
+<img src="screenshots/example.png" alt="Quick actions menu" width="400"/>
 
 ## Features
 
@@ -16,10 +16,10 @@ The **Quick actions** dropdown injects directly into the GitHub PR toolbar and p
 |--------|-------------|
 | Mark all as viewed | Marks every file in the PR as viewed |
 | Mark all as not viewed | Resets every file to unviewed |
-| Mark *.swift as viewed | Marks only Swift source files as viewed |
-| Mark *.swift as not viewed | Resets only Swift source files to unviewed |
-| Mark *.kt as viewed | Marks only Kotlin source files as viewed |
-| Mark *.kt as not viewed | Resets only Kotlin source files to unviewed |
+| Mark `*.swift` as viewed | Marks only Swift source files as viewed |
+| Mark `*.swift` as not viewed | Resets only Swift source files to unviewed |
+| Mark `*.kt` as viewed | Marks only Kotlin source files as viewed |
+| Mark `*.kt` as not viewed | Resets only Kotlin source files to unviewed |
 
 ### Diffs
 
@@ -47,7 +47,7 @@ Large mobile PRs often mix Swift (iOS) and Kotlin (Android) changes. The per-lan
 
 - **Focus on one platform at a time** — mark all `.kt` files as viewed while you concentrate on the Swift side, then flip to Kotlin without losing your place.
 - **Split review duties** — an iOS reviewer can mark all `.swift` files as viewed to signal their scope; an Android reviewer does the same for `.kt`.
-- **Quickly triage** — use "Mark all as viewed" followed by "Mark *.swift as not viewed" to isolate only the Swift files that still need attention.
+- **Quickly triage** — use "Mark all as viewed" followed by "Mark `*.swift` as not viewed" to isolate only the Swift files that still need attention.
 
 ## Setup
 
